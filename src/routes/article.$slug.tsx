@@ -59,7 +59,7 @@ function ArticlePage() {
     <div className="min-h-screen bg-background">
       <SiteHeader />
 
-      <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-20">
+      <article className="mx-auto max-w-3xl px-5 py-12 sm:px-6 sm:py-20">
         <Link
           to="/"
           className="text-sm text-muted-foreground hover:text-foreground"
@@ -77,10 +77,10 @@ function ArticlePage() {
             <span>·</span>
             <span>{article.readTime}</span>
           </div>
-          <h1 className="font-serif text-4xl leading-[1.1] text-foreground sm:text-5xl md:text-6xl">
+          <h1 className="font-serif text-3xl leading-[1.12] text-foreground sm:text-5xl md:text-6xl">
             {article.title}
           </h1>
-          <p className="mt-6 text-xl leading-relaxed text-muted-foreground">
+          <p className="mt-6 text-lg leading-relaxed text-muted-foreground sm:text-xl">
             {article.excerpt}
           </p>
           <p className="mt-6 text-sm text-muted-foreground">By {article.author}</p>
@@ -119,7 +119,7 @@ function ArticlePage() {
 
       <section className="mx-auto max-w-6xl border-t border-border px-4 py-16 sm:px-6">
         <h2 className="mb-8 font-serif text-2xl">Keep reading</h2>
-        <div className="grid gap-10 sm:grid-cols-3">
+        <div className="grid gap-12 sm:grid-cols-3">
           {related.map((a) => (
             <Link
               key={a.slug}

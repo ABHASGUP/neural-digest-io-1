@@ -8,7 +8,7 @@ export function ArticleCard({ article }: { article: Article }) {
       params={{ slug: article.slug }}
       className="group block"
     >
-      <article className="flex flex-col gap-4">
+      <article className="flex flex-col gap-6">
         <div className="aspect-[16/10] overflow-hidden rounded-lg bg-muted">
           <img
             src={article.image}

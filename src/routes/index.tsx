@@ -40,7 +40,7 @@ function Home() {
               The daily AI briefing
             </p>
             <h1 className="font-serif text-5xl leading-[1.05] text-foreground sm:text-6xl md:text-7xl">
-              All the AI news that matters, in one calm place.
+              What matters in AI. Nothing else.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
               Skip the noise of twenty tabs. Prism AI distills the most important
