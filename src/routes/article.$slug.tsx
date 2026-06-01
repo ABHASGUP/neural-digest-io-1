@@ -95,7 +95,7 @@ function ArticlePage() {
         </div>
 
         <div className="article-prose">
-          {article.content.map((block, i) =>
+          {article.content.map((block: string, i: number) =>
             block.startsWith("## ") ? (
               <h2 key={i} className="font-serif">
                 {block.slice(3)}
