@@ -27,23 +27,23 @@ function AdminLayout() {
             <AdminLink to="/admin/subscribers">Subscribers</AdminLink>
             <AdminLink to="/admin/settings">Settings</AdminLink>
           </nav>
-          <div className="absolute bottom-4 left-4 right-4 hidden md:block">
-            <Link
-              to="/"
-              className="block rounded-md border border-border px-3 py-2 text-xs text-muted-foreground hover:bg-accent/5 hover:text-foreground"
-            >
-              ← Back to site
-            </Link>
-          </div>
         </aside>
 
         <main className="flex-1">
           <header className="flex h-16 items-center justify-between border-b border-border px-6">
-            <div>
-              <p className="text-xs uppercase tracking-wider text-muted-foreground">
-                Admin
-              </p>
-              <h1 className="font-serif text-xl">Content management</h1>
+            <div className="flex items-center gap-4">
+              <Link
+                to="/"
+                className="text-xs text-muted-foreground hover:text-foreground"
+              >
+                ← Back to site
+              </Link>
+              <div>
+                <p className="text-xs uppercase tracking-wider text-muted-foreground">
+                  Admin
+                </p>
+                <h1 className="font-serif text-xl">Content management</h1>
+              </div>
             </div>
             <button className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-accent-foreground hover:opacity-90">
               + New article
