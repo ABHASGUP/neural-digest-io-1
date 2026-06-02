@@ -27,14 +27,6 @@ function AdminLayout() {
             <AdminLink to="/admin/subscribers">Subscribers</AdminLink>
             <AdminLink to="/admin/settings">Settings</AdminLink>
           </nav>
-          <div className="absolute bottom-4 left-4 right-4 hidden md:block">
-            <Link
-              to="/"
-              className="block rounded-md border border-border px-3 py-2 text-xs text-muted-foreground hover:bg-accent/5 hover:text-foreground"
-            >
-              ← Back to site
-            </Link>
-          </div>
         </aside>
 
         <main className="flex-1">
