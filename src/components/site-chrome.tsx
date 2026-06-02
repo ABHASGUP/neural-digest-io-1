@@ -1,14 +1,13 @@
 import { Link } from "@tanstack/react-router";
+import { SignaMark } from "@/components/brand-logo";
 
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground font-serif text-lg">
-            P
-          </div>
-          <span className="font-serif text-xl tracking-tight">Prism AI</span>
+        <Link to="/" className="flex items-center gap-2.5" aria-label="Signa — home">
+          <SignaMark className="h-5 w-5 text-accent" />
+          <span className="font-serif text-xl tracking-tight">Signa</span>
         </Link>
         <nav className="hidden items-center gap-7 text-sm text-muted-foreground sm:flex">
           <Link to="/" className="hover:text-foreground transition-colors">
