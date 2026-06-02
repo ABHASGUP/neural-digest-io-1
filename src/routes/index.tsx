@@ -43,7 +43,7 @@ function Home() {
               What matters in AI. Nothing else.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Skip the noise of twenty tabs. Prism AI distills the most important
+              Skip the noise of twenty tabs. Signa distills the most important
               model launches, research, and policy moves into one focused brief —
               every morning.
             </p>
