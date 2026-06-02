@@ -7,13 +7,13 @@ import { articles } from "@/lib/articles";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Prism AI — The daily briefing on artificial intelligence" },
+      { title: "Signa — The daily briefing on artificial intelligence" },
       {
         name: "description",
         content:
           "Fast, trustworthy AI news. One place for the model launches, policy shifts, and research that actually matter.",
       },
-      { property: "og:title", content: "Prism AI — The daily AI briefing" },
+      { property: "og:title", content: "Signa — The daily AI briefing" },
       {
         property: "og:description",
         content:
