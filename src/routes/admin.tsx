@@ -32,6 +32,12 @@ function AdminLayout() {
         <main className="flex-1">
           <header className="flex h-16 items-center justify-between border-b border-border px-6">
             <div>
+              <Link
+                to="/"
+                className="text-xs text-muted-foreground hover:text-foreground"
+              >
+                ← Back to site
+              </Link>
               <p className="text-xs uppercase tracking-wider text-muted-foreground">
                 Admin
               </p>
