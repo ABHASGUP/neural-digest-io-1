@@ -12,7 +12,7 @@ export const Route = createFileRoute("/article/$slug")({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? [
-          { title: `${loaderData.article.title} — Prism AI` },
+          { title: `${loaderData.article.title} — Signa` },
           { name: "description", content: loaderData.article.excerpt },
           { property: "og:title", content: loaderData.article.title },
           { property: "og:description", content: loaderData.article.excerpt },

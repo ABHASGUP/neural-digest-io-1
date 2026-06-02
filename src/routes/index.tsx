@@ -7,13 +7,13 @@ import { articles } from "@/lib/articles";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Prism AI — The daily briefing on artificial intelligence" },
+      { title: "Signa — The daily briefing on artificial intelligence" },
       {
         name: "description",
         content:
           "Fast, trustworthy AI news. One place for the model launches, policy shifts, and research that actually matter.",
       },
-      { property: "og:title", content: "Prism AI — The daily AI briefing" },
+      { property: "og:title", content: "Signa — The daily AI briefing" },
       {
         property: "og:description",
         content:
@@ -43,7 +43,7 @@ function Home() {
               What matters in AI. Nothing else.
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Skip the noise of twenty tabs. Prism AI distills the most important
+              Skip the noise of twenty tabs. Signa distills the most important
               model launches, research, and policy moves into one focused brief —
               every morning.
             </p>

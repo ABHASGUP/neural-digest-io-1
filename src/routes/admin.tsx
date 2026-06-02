@@ -1,9 +1,10 @@
 import { createFileRoute, Link, Outlet } from "@tanstack/react-router";
+import { SignaMark } from "@/components/brand-logo";
 
 export const Route = createFileRoute("/admin")({
   head: () => ({
     meta: [
-      { title: "Admin — Prism AI" },
+      { title: "Admin — Signa" },
       { name: "robots", content: "noindex" },
     ],
   }),
@@ -16,10 +17,8 @@ function AdminLayout() {
       <div className="flex">
         <aside className="hidden w-60 shrink-0 border-r border-border bg-sidebar md:block">
           <div className="flex h-16 items-center gap-2 border-b border-border px-5">
-            <div className="flex h-7 w-7 items-center justify-center rounded-md bg-primary text-primary-foreground font-serif text-sm">
-              P
-            </div>
-            <span className="font-serif text-base">Prism Admin</span>
+            <SignaMark className="h-5 w-5 text-accent" />
+            <span className="font-serif text-base">Signa Admin</span>
           </div>
           <nav className="flex flex-col gap-1 p-3 text-sm">
             <AdminLink to="/admin">Dashboard</AdminLink>
