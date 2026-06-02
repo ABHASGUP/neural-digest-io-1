@@ -35,8 +35,11 @@ export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-border">
       <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-4 px-4 py-10 text-sm text-muted-foreground sm:flex-row sm:items-center sm:px-6">
-        <p className="font-serif text-base text-foreground">Prism AI</p>
-        <p>© {new Date().getFullYear()} Prism AI. Signal over noise.</p>
+        <div className="flex items-center gap-2 text-foreground">
+          <SignaMark className="h-4 w-4 text-accent" />
+          <p className="font-serif text-base">Signa</p>
+        </div>
+        <p>© {new Date().getFullYear()} Signa. Signal over noise.</p>
       </div>
     </footer>
   );
