@@ -31,17 +31,19 @@ function AdminLayout() {
 
         <main className="flex-1">
           <header className="flex h-16 items-center justify-between border-b border-border px-6">
-            <div>
+            <div className="flex items-center gap-4">
               <Link
                 to="/"
                 className="text-xs text-muted-foreground hover:text-foreground"
               >
                 ← Back to site
               </Link>
-              <p className="text-xs uppercase tracking-wider text-muted-foreground">
-                Admin
-              </p>
-              <h1 className="font-serif text-xl">Content management</h1>
+              <div>
+                <p className="text-xs uppercase tracking-wider text-muted-foreground">
+                  Admin
+                </p>
+                <h1 className="font-serif text-xl">Content management</h1>
+              </div>
             </div>
             <button className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-accent-foreground hover:opacity-90">
               + New article
