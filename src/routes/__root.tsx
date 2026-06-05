@@ -85,6 +85,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Signa" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Signa — The daily AI briefing" },
+      { name: "twitter:description", content: "Fast, trustworthy AI news, one focused brief every morning." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/109d3165-e3a4-4900-bfd8-5cb505e26913/id-preview-79d4f5cc--8cf3fbf4-3dbf-4308-b322-856485978c48.lovable.app-1780395754475.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/109d3165-e3a4-4900-bfd8-5cb505e26913/id-preview-79d4f5cc--8cf3fbf4-3dbf-4308-b322-856485978c48.lovable.app-1780395754475.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
